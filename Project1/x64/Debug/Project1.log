@@ -1,0 +1,30 @@
+﻿  Source.cpp
+C:\Users\user\Source\Repos\Project1\Project1\Mesh.h(96,1): warning C4267: аргумент: преобразование из "size_t" в "GLsizei"; возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(47,24): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(197,41): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(198,41): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(201,22): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(771,11): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(772,11): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(776,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(777,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(779,10): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(780,10): warning C4244: =: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\user\Source\Repos\Project1\Project1\Source.cpp(789,28): warning C4244: аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ) в функции "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ) в функции "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z) в функции "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ) в функции "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ aiGetMaterialTextureCount в функции "public: unsigned int __cdecl aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QEBAIW4aiTextureType@@@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ aiGetMaterialTexture в функции "public: enum aiReturn __cdecl aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z).
+C:\Users\user\Source\Repos\Project1\Project1\add_lib\assimp.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\user\Source\Repos\Project1\x64\Debug\Project1.exe : fatal error LNK1120: неразрешенных внешних элементов: 6
